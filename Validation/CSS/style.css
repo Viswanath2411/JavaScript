@@ -1,0 +1,49 @@
+#head
+{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#para1{
+    text-align: center;
+}
+#f1{
+    font-weight: bold;
+}
+#star{
+    color: red;
+}
+div{
+    
+    margin-left: 10rem;
+    display:inline-table;
+    
+    
+}
+body{
+    background-image: url('../Images/download.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#button{
+    margin-left: 40rem;
+    
+}
+#head2{
+    margin-left: 8rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#divid2{
+    margin-left: 20rem;
+}
+#divid3{
+    margin-top: 5rem;
+}
+#divid5{
+    margin-top: 5rem;
+}
+
+input{
+    width: 18rem;
+}

@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <link rel = "stylesheet" href="./CSS/style.css">
+        <script src="./JavaScript/script.js"></script>
+    </head>
+
+    <body>
+        <h1 id = "head">Submit Your Application</h1>
+        <p id = "para1">for <span id = "f1">.NET Developer(Fresher)</span></p>
+
+        <p id = "head2"><strong>Personal Information:</strong> </p>
+
+        <div id = "divid1">
+            <p>Name as per ID proof <span id = "star">*</span></p>
+            <input type = "text" id = "firstname" > 
+            <label type = "text" id = "name" style ="visibility: hidden;" >Invalid</label>
+                
+            <p>Father's Name <span id = "star">*</span></p>
+            <input type = "text" id = "fathername" >
+            <label type = "text" id = "name1" style ="visibility: hidden;" >Invalid</label>
+        </div>
+        <div id = "divid2">
+            <p>Email <span id = "star">*</span></p>
+            <input type = "email" id = "mail" > 
+            <label type = "text" id = "mail1" style ="visibility: hidden;" >Invalid</label>
+
+            <p>Date of Birth <span id = "star">*</span></p>
+            <input type = "text" id = "date" placeholder="dd-mm-yyyy">
+            <label type = "text" id = "date1" style ="visibility: hidden;" >Invalid</label>
+
+            <p>Mobile No <span id = "star">*</span></p>
+            <input type = "text" id = "mob" > 
+            <label type = "text" id = "mob1" style ="visibility: hidden;" >Invalid</label>
+        </div>
+        <div id = "divid3">
+            <p>Current Address <span id = "star">*</span></p>
+            <input type = "text" id = "address1" placeholder="Address Line 1"> 
+            <label type = "text" id = "line1" style ="visibility: hidden;" >Invalid</label><br><br>
+            <input type = "text" id = "address2" placeholder="Address line 2">
+            <label type = "text" id = "line2" style ="visibility: hidden;" >Invalid</label><br><br>
+            <input type = "text" id = "city" placeholder ="City">
+            <label type = "text" id = "city1" style ="visibility: hidden;" >Invalid</label><br><br>
+            <select name = "option" id = "option">
+                <option value = "state">state</option>
+                <option value = "Tamilnadu">TamilNadu</option>
+                <option value = "Karnataka">Karnataka</option>
+                <option value = "Telungana">Telungana</option>
+                <option value = "Kerala">Kerala</option>
+            </select>
+            <label type = "text" id = "state" style ="visibility: hidden;" >Invalid</label>
+            <br><br>
+            <input type = "text" id = "pin" placeholder = "Zip Code">
+            <label type = "text" id = "pin1" style ="visibility: hidden;" >Invalid</label>
+        </div>
+        <div id = "divid4">
+            <p>Permanent Address <span id = "star">*</span></p>
+            <p><input type = "checkbox" onclick="sameAddress()">Same as Current Address.
+            </p>
+            <input type = "text" id = "paddress1" placeholder="Address Line 1"> 
+            <label type = "text" id = "pline1" style ="visibility: hidden;" >Invalid</label><br><br>
+            <input type = "text" id = "paddress2" placeholder="Address line 2">
+            <label type = "text" id = "pline2" style ="visibility: hidden;" >Invalid</label><br><br>
+            <input type = "text" id = "pcity" placeholder ="City">
+            <label type = "text" id = "pcity1" style ="visibility: hidden;" >Invalid</label><br><br>
+            <select name = "option" id = "option1">
+                <option value = "state" >state</option>
+                <option value = "Tamilnadu">TamilNadu</option>
+                <option value = "Karnataka">Karnataka</option>
+                <option value = "Telungana">Telungana</option>
+                <option value = "Kerala">Kerala</option>
+            </select>
+            <label type = "text" id = "pstate" style ="visibility: hidden;" >Invalid</label>
+            <br><br>
+            <input type = "text" id = "ppin" placeholder = "Zip Code">
+            <label type = "text" id = "ppin1" style ="visibility: hidden;" >Invalid</label>
+        </div><br><br>
+        <div id = "divid5">
+            <p>Upload Profile Photo <span id = "star">*</span>(JPG/PNG format only)</p>
+            <p>Please upload a photo of yourself.Your face should be clearly visible.Make sure the image size does not exceed 500KB.</p>
+
+            <input type = "file"  id = "photo" value = "Upload Photo">
+            <label type = "text" id = "photo1" style ="visibility: hidden;" >Invalid</label><br><br>
+
+            <button id = "button" onclick="Validate()" >Next</button>
+        </div>
+    </body>
+</html>
